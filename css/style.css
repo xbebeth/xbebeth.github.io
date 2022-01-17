@@ -1,0 +1,261 @@
+@charset "utf-8";
+*{
+  box-sizing: border-box; 
+  margin:0; 
+  padding:0; 
+  font-family:"Century Gothic", Century Gothic, Arial, Helvetica, sans-serif; 
+  text-decoration:none; 
+  font-style: none; 
+  font-weight:normal; 
+  border:none; 
+  outline:none; 
+  list-style-type:disc; 
+  text-align:left;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+html{
+  background-color: #F6FFFE;
+  min-height: 100vh;
+}
+/*=========================================================================THIS IS THE NAV*/
+#desktop-nav a#nav-title{
+  text-align: left;
+  padding-left: 42px;
+  margin-top: -2px;
+  }
+#desktop-nav {
+  overflow: hidden;
+  background-color: #D4FBF6;
+  position: relative;
+}
+#desktop-nav #mobile-nav, #desktop-nav #desktop-true-nav {
+  display: none;
+}
+#desktop-nav #mobile-nav {
+  height: 100vh;
+  background-color: #D4FBF6;
+}
+#desktop-nav a {
+  color: #147E70;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+}
+#desktop-nav #mobile-nav a{
+  display: list-item;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#desktop-nav #mobile-nav a:hover{
+  background-color: #8CE8DC;
+  transition: 0.5s;
+}
+#desktop-nav a.icon {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  color: #3DBCB4;
+}
+#desktop-nav a.lang-button{
+  text-align: right;
+  float: right;
+  margin-top: -36px;
+  width: 40px;
+  z-index: 1;
+}
+#desktop-nav #lang-FR{
+  margin-right: 20px;
+  width: 60px;
+  z-index: -1;
+}
+/*==============================================================THIS IS THE POP-UP*/
+
+
+
+/*==============================================================THIS IS THE HEADER*/
+div#header img{
+  display: block;
+  float: center;
+  width: 95%;
+  padding: 5%;
+}
+div#header img#desktop-portrait, h1.lay-titles{
+  display: none;
+}
+div#header-intro{
+  padding: 10% 5%;
+  color: #3DBCB4;
+  line-height: 26px;
+  font-size: 16px;
+}
+div#header-intro p{
+  padding: 0% 6%;
+  color: #0F9E94;
+}
+
+/*========================================================THIS IS THE MAIN CONTENT*/
+button{
+  outline: 1px solid #3DBCB4;
+  padding: 5px 50px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 6%;
+  background-color: #F6FFFE;
+  border-radius: 15px;
+  color: #3DBCB4;
+  margin-bottom: 80px;
+}
+button:hover{
+  background-color: #3DBCB4;
+  color: #F6FFFE;
+  transition: 0.4s;
+  cursor: hand;
+}
+/*==============================================================THIS IS THE FOOTER*/
+body{
+  position: absolute;
+  min-height: 100vh;
+}
+footer{
+    padding: 6px;
+    width: 100%;
+    background-color: #3DBCB4;
+    color: #F6FFFE;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+footer p{
+  text-align: center;
+}
+
+/*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
+@media only screen and (min-width: 700px) {
+  #desktop-nav #mobile-nav a{
+  display: none;
+  }
+  #desktop-nav a.icon {
+  display: none;
+  }
+  #desktop-nav a#nav-title{
+    display: inline-block;
+    width: 290px;
+  }
+  #desktop-nav #desktop-true-nav{
+    position: absolute;
+    right: 10;
+    display: inline-block;
+    background-color: #D4FBF6;
+  }
+  #desktop-nav #desktop-true-nav a{
+  float: left;
+  }
+  #desktop-nav #desktop-true-nav a:hover{
+    background-color: #8CE8DC;
+    transition: 0.5s;
+  }
+  #desktop-nav a {
+    color: #147E70;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+  }
+  div#header img{
+    display: none;
+  }
+  div#header{
+    width: 50%;
+    float: left;
+    padding: 8% 2%;
+    margin-left: 1%;
+  }
+  div#header-intro{
+    width: 35%;
+    margin-top: -20px;
+    margin-right: 10%;
+    float: left;
+    height: 80vh;
+    padding-right: 0%;
+  }
+  div#header-intro p{
+    width: 128%;
+  }
+  div#header img#desktop-portrait{
+    display: block;
+    width: 100%;
+  }
+  h1.lay-titles{
+    display: block;
+    font-size: 37px;
+    color: #EF939C;
+    padding:  0% 6%;
+    line-height: 35px;
+  }
+  h1#lay-titles-bold{
+    font-weight: 600;
+    color: #E7656E;
+    padding-top: 20%;
+  }
+  div#header-intro p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1046px) {
+div#header{
+  width: 45%;
+  padding-top: 60px;
+}
+div#header-intro{
+  width: 40%;
+  padding: 10% 5%;
+}
+div#header-intro p{
+  width: 150%;
+}
+img#desktop-portrait{
+  max-width: 480px;
+  margin-left: 10%;
+}
+}
+@media only screen and (min-width: 1330px) {
+div#header{
+  width: 45%;
+}
+div#header-intro{
+  width: 40%;
+  padding: 10% 8%;
+}
+div#header-intro p{
+  width: 150%;
+}
+img#desktop-portrait{
+  max-width: 480px;
+  margin-left: 200px;
+}
+}
+@media only screen and (min-width: 1580px) {
+div#header{
+  width: 45%;
+  margin-top: -20px;
+}
+div#header-intro{
+  width: 40%;
+  padding: 8% 6%;
+  margin-left: -2%;
+}
+div#header-intro p{
+  width: 130%;
+}
+img#desktop-portrait{
+  max-width: 480px;
+  margin-left: 300px;
+}
+}

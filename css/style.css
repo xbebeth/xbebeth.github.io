@@ -3,9 +3,8 @@
   box-sizing: border-box; 
   margin:0; 
   padding:0; 
-  font-family:"Century Gothic", Century Gothic, Arial, Helvetica, sans-serif; 
+  font-family:"Century Gothic", Arial, Helvetica, sans-serif; 
   text-decoration:none; 
-  font-style: none; 
   font-weight:normal; 
   border:none; 
   outline:none; 
@@ -81,7 +80,6 @@ html{
 /*==============================================================THIS IS THE HEADER*/
 div#header img{
   display: block;
-  float: center;
   width: 95%;
   padding: 5%;
 }
@@ -115,7 +113,7 @@ button:hover{
   background-color: #3DBCB4;
   color: #F6FFFE;
   transition: 0.4s;
-  cursor: hand;
+  cursor:grab;
 }
 /*==============================================================THIS IS THE FOOTER*/
 body{
@@ -134,7 +132,71 @@ footer{
 footer p{
   text-align: center;
 }
-
+/*==========================================================THIS IS THE ABOUT PAGE*/
+div#resume-typo h1{
+  margin-left:7%;
+  color:#E7656E;
+  font-weight: 600;
+  font-size: 28px;
+}
+h1.centertitle{
+  font-size: 37px;
+  color: #EF939C;
+  line-height: 38px;
+  text-align: center;
+}
+h1.boldfont{
+font-weight: 600;
+color:#E7656E;
+}
+div#menu-img img{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:92%;
+  border:1px solid #3DBCB4;
+}
+div.one-col{
+  margin-top:30px;
+}
+div#menu-typo p{
+  margin-top:15px;
+  margin-left:7%;
+  margin-right:7%;
+  color: #0F9E94;
+}
+div#resume-img img{
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+div#resume-typo p{
+  margin-top:5px;
+  margin-left:7%;
+  margin-right:7%;
+  color: #0F9E94;
+}
+div.blueback{
+  background-color:#D4FBF6;
+  padding-top:20px;
+}
+button#centerbutton{
+  display: block;
+  width:200px;
+  margin-top:25px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  outline-color: #E7656E;
+  color:#E7656E;
+  background-color: #D4FBF6;
+}
+button#centerbutton:hover{
+  background-color:#E7656E;
+  color: #FFF;
+}
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
 @media only screen and (min-width: 700px) {
   #desktop-nav #mobile-nav a{
@@ -149,7 +211,7 @@ footer p{
   }
   #desktop-nav #desktop-true-nav{
     position: absolute;
-    right: 10;
+    right: 0;
     display: inline-block;
     background-color: #D4FBF6;
   }
@@ -207,6 +269,61 @@ footer p{
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  div.blueback{
+    background-color:#D4FBF6;
+    padding-top:20px;
+    min-height:38vh;
+    clear: both;
+  }
+/*==========================================================THIS IS THE ABOUT PAGE*/
+div#resume-typo h1{
+  margin-left:7%;
+}
+h1.centertitle{
+  text-align: left;
+  margin-left:7%;
+}
+div#menu-img img{
+  width:80%;
+}
+div#resume-img{
+  float:left;
+  width: 25%;
+  padding: 2% 5%;
+}
+div#resume-typo{
+  float:right;
+  width: 75%;
+  padding: 2% 5%;
+}
+div#menu-typo p{
+  margin-top:15px;
+  margin-left:7%;
+  margin-right:7%;
+  width: 60%;
+}
+div#resume-img img{
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20%;
+}
+div#resume-typo p{
+  margin-top:5px;
+  margin-left:55px;
+  margin-right:30px;
+}
+div#resume-typo h1{
+  margin-left:55px;
+}
+button#centerbutton{
+  margin-top:25px;
+  margin-left:55px;
+  margin-right:0;
+  text-align: center;
+}
 }
 @media only screen and (min-width: 1046px) {
 div#header{
@@ -224,6 +341,41 @@ img#desktop-portrait{
   max-width: 480px;
   margin-left: 10%;
 }
+/*==========================================================THIS IS THE ABOUT PAGE*/
+div#menu-img img{
+  width:500px;
+}
+div.slugs{
+  min-height:90vh;
+  clear: both;
+  padding-top:30px;
+  padding-bottom: 680px;
+}
+div.one-col, div.slugs{
+  padding-left:10%;
+  padding-right:10%;
+  clear: both;
+}
+div#menu-typo{
+  float:left;
+  width: 50%;
+}
+div#menu-img{
+  float:left;
+  width:50%;
+}
+div.blueback, div.one-col{
+  clear: both;
+}
+div#menu-typo p{
+  margin-top:15px;
+  margin-left:7%;
+  margin-right:0%;
+  width: 75%;
+}
+div#resume-img img{
+  margin-top: 0;
+}
 }
 @media only screen and (min-width: 1330px) {
 div#header{
@@ -239,6 +391,18 @@ div#header-intro p{
 img#desktop-portrait{
   max-width: 480px;
   margin-left: 200px;
+}
+/*==========================================================THIS IS THE ABOUT PAGE*/
+div#menu-img img{
+  width:600px;
+}
+div.blueback{
+  padding-left:20%;
+  padding-right:15%;
+}
+
+div#menu-typo p{
+  width: 70%;
 }
 }
 @media only screen and (min-width: 1580px) {
@@ -257,5 +421,10 @@ div#header-intro p{
 img#desktop-portrait{
   max-width: 480px;
   margin-left: 300px;
+}
+/*==========================================================THIS IS THE ABOUT PAGE*/
+div#menu-img img{
+  width:630px;
+  margin-top: -20px;
 }
 }

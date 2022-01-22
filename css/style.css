@@ -107,7 +107,6 @@ button{
   background-color: #F6FFFE;
   border-radius: 15px;
   color: #3DBCB4;
-  margin-bottom: 80px;
 }
 button:hover{
   background-color: #3DBCB4;
@@ -154,7 +153,6 @@ div#menu-img img{
   margin-left:auto;
   margin-right:auto;
   width:92%;
-  border:1px solid #3DBCB4;
 }
 div.one-col{
   margin-top:30px;
@@ -181,6 +179,7 @@ div#resume-typo p{
 div.blueback{
   background-color:#D4FBF6;
   padding-top:20px;
+  overflow: hidden;
 }
 button#centerbutton{
   display: block;
@@ -188,6 +187,7 @@ button#centerbutton{
   margin-top:25px;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom: 50px;
   text-align: center;
   outline-color: #E7656E;
   color:#E7656E;
@@ -272,7 +272,6 @@ button#centerbutton:hover{
   div.blueback{
     background-color:#D4FBF6;
     padding-top:20px;
-    min-height:38vh;
     clear: both;
   }
 /*==========================================================THIS IS THE ABOUT PAGE*/
@@ -424,7 +423,7 @@ img#desktop-portrait{
 }
 /*==========================================================THIS IS THE ABOUT PAGE*/
 div#menu-img img{
-  width:630px;
-  margin-top: -20px;
+  width:650px;
+  margin-top: -45px;
 }
 }

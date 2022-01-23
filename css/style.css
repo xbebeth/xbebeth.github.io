@@ -197,6 +197,99 @@ button#centerbutton:hover{
   background-color:#E7656E;
   color: #FFF;
 }
+/*THIS IS FOR THE GRID-BASED PAGES ===============================================*/
+h1.portfolio-title{
+  color:#E7656E;
+  font-weight: 600;
+  font-size: 20px;
+  text-align:center;
+}
+h2{
+  height:220px;
+  font-weight: 600;
+  padding:0;
+  margin:0;
+  line-height:205px;
+  text-align: center;
+  color:#FFF;
+  transition: 0.5s;
+}
+div.grid{
+  width:95%;
+  padding:2%;
+  margin:-10px auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div.onecol{
+  padding:15px;
+  height:250px;
+  width:413px;
+  background-color: #8CE8DC;
+  margin:8px;
+}
+div.vgmural{
+  background-image:url('../img/vgmural-true.jpg');
+  transition: 0.5s;
+}
+div.vgmural:hover{
+  background-image:url('../img/vgmural.jpg');
+  transition: 0.5s;
+}
+div.fmountains{
+  background-image:url('../img/fmountains-true.jpg');
+  transition: 0.5s;
+}
+div.fmountains:hover{
+  background-image:url('../img/fmountains.jpg');
+  transition: 0.5s;
+}
+div.azulejos{
+  background-image:url('../img/azulejos-true.jpg');
+  transition: 0.5s;
+}
+div.azulejos:hover{
+  background-image:url('../img/azulejos.jpg');
+  transition: 0.5s;
+}
+div.fleaves{
+  background-image:url('../img/fleaves-true.jpg');
+  transition: 0.5s;
+}
+div.fleaves:hover{
+  background-image:url('../img/fleaves.jpg');
+  transition: 0.5s;
+}
+div.iposters{
+  background-image:url('../img/iposters-true.jpg');
+  transition: 0.5s;
+}
+div.iposters:hover{
+  background-image:url('../img/iposters.jpg');
+  transition: 0.5s;
+}
+div.cbanner{
+  background-image:url('../img/cbanner-true.jpg');
+  transition: 0.5s;
+}
+div.cbanner:hover{
+  background-image:url('../img/cbanner.jpg');
+  transition: 0.5s;
+}
+div.istories{
+  background-image:url('../img/istories-true.jpg');
+  transition: 0.5s;
+}
+div.istories:hover{
+  background-image:url('../img/istories.jpg');
+  transition: 0.5s;
+}
+h2:hover{
+  color:#E7656E;
+  transition: 0.5s;
+}
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
 @media only screen and (min-width: 700px) {
   #desktop-nav #mobile-nav a{
@@ -374,6 +467,10 @@ div#menu-typo p{
 }
 div#resume-img img{
   margin-top: 0;
+}
+/*THIS IS FOR THE GRID-BASED PAGES ===============================================*/
+div.grid{
+  margin:-20px auto;
 }
 }
 @media only screen and (min-width: 1330px) {

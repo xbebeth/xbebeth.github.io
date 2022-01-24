@@ -386,6 +386,8 @@ h2:hover{
   transition: 0.5s;
   cursor:grab;
 }
+/*THIS IS FOR THE CONTACT FORM====================================================*/
+
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
 @media only screen and (min-width: 700px) {
   #desktop-nav #mobile-nav a{

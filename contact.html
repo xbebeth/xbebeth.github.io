@@ -1,4 +1,4 @@
-<html id="artist-page">
+<html id="contact-page">
 	<head>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -35,44 +35,19 @@
 			<a class="lang-button" href="index.html">EN</a>
 			<a class="lang-button" id="lang-FR" href="index.html">FR |</a>
 		</div>
-		<div class="one-col">
-			<h1 class="portfolio-title">Artist's original works</h1>
+		<div class="left-side">
+			<h3>Let's Chat!</h3>
+			<h4>Fill in each section below</h3>
 		</div>
-		<div class="grid">
-			<div class="onecol hypo1">
-				<h2> </h2>
-			</div>
-			<div class="onecol hypo2">
-				<h2> </h2>
-			</div>
-			<div class="onecol oranges1">
-				<h2> </h2>
-			</div>
-			<div class="onecol taprayers">
-				<h2> </h2>
-			</div>
-			<div class="onecol tspill">
-				<h2> </h2>
-			</div>
-			<div class="onecol llttcorange">
-				<h2> </h2>
-			</div>
-			<div class="onecol shands">
-				<h2> </h2>
-			</div>
-			<div class="onecol ink">
-				<h2> </h2>
-			</div>
-		</div>
-		<div class="one-col blueback">
-			<div id="resume-img">
-				<img src="img/elisabeth.jpg" />
-			</div>
-			<div id="resume-typo">
-				<h1>Open to commissions!</h1>
-				<p>Is there a specific piece from above you like, or a project you would like me to create for you? In any case, contact me below for any inquiries! I have experience with acrylic, watercolor, and oil painting, drawing, fibers work (sewing, embroidery, dyeing), printmaking, and more.</p>
-				<button id="centerbutton" onclick="window.location.href='contact.html'">Contact</button>
-			</div>
+		<div>
+			<p>Send me a message</p>
+			<form class ="contact-form" action="contactform.php" method="post">
+				<input type ="text" name="name" placeholder="Your name">
+				<input type ="text" name="mail" placeholder="Your email">
+				<input type ="text" name="subject" placeholder="Subject of the message">
+				<textarea name="message" placeholder="Write your message"></textarea>
+				<button type="submit" name="submit">Send</button>
+			</form>
 		</div>
 	</body>
 	<footer>

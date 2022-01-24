@@ -286,6 +286,102 @@ div.istories:hover{
   background-image:url('../img/istories.jpg');
   transition: 0.5s;
 }
+div.hypo1{
+  background-image:url('../img/hypo1-true.jpg');
+  transition: 0.5s;
+}
+div.hypo1:hover{
+  background-image:url('../img/hypo1.jpg');
+  transition: 0.5s;
+}
+div.hypo2{
+  background-image:url('../img/hypo2-true.jpg');
+  transition: 0.5s;
+}
+div.hypo2:hover{
+  background-image:url('../img/hypo2.jpg');
+  transition: 0.5s;
+}
+div.oranges1{
+  background-image:url('../img/oranges1-true.jpg');
+  transition: 0.5s;
+}
+div.oranges1:hover{
+  background-image:url('../img/oranges1.jpg');
+  transition: 0.5s;
+}
+div.taprayers{
+  background-image:url('../img/taprayers-true.jpg');
+  transition: 0.5s;
+}
+div.taprayers:hover{
+  background-image:url('../img/taprayers.jpg');
+  transition: 0.5s;
+}
+div.tspill{
+  background-image:url('../img/tspill-true.jpg');
+  transition: 0.5s;
+}
+div.tspill:hover{
+  background-image:url('../img/tspill.jpg');
+  transition: 0.5s;
+}
+div.llttcorange{
+  background-image:url('../img/llttcorange-true.jpg');
+  transition: 0.5s;
+}
+div.llttcorange:hover{
+  background-image:url('../img/llttcorange.jpg');
+  transition: 0.5s;
+}
+div.shands{
+  background-image:url('../img/shands-true.jpg');
+  transition: 0.5s;
+}
+div.shands:hover{
+  background-image:url('../img/shands.jpg');
+  transition: 0.5s;
+}
+div.ink{
+  background-image:url('../img/ink-true.jpg');
+  transition: 0.5s;
+}
+div.ink:hover{
+  background-image:url('../img/ink.jpg');
+  transition: 0.5s;
+}
+div.komorebi{
+  background-image:url('../img/komorebi-true.jpg');
+  transition: 0.5s;
+}
+div.komorebi:hover{
+  background-image:url('../img/komorebi.jpg');
+  transition: 0.5s;
+}
+div.atbrochure{
+  background-image:url('../img/atbrochure-true.jpg');
+  transition: 0.5s;
+}
+div.atbrochure:hover{
+  background-image:url('../img/atbrochure.jpg');
+  transition: 0.5s;
+}
+div.camcover{
+  background-image:url('../img/camcover-true.jpg');
+  transition: 0.5s;
+}
+div.camcover:hover{
+  background-image:url('../img/camcover.jpg');
+  transition: 0.5s;
+}
+div.lotfbook{
+  background-image:url('../img/lotfbook-true.jpg');
+  transition: 0.5s;
+}
+div.lotfbook:hover{
+  background-image:url('../img/lotfbook.jpg');
+  transition: 0.5s;
+}
 h2:hover{
   color:#E7656E;
   transition: 0.5s;

@@ -383,18 +383,8 @@ h2:hover{
   cursor:grab;
 }
 /*THIS IS FOR THE CONTACT FORM====================================================*/
-form{
-  background-color: red;
-  height: 80vh;
-}
-input{
-  width:90%;
-  margin:4px auto;
-  background-color: red;
-  border:1px solid #8CE8DC;
-  background-color: #D4FBF6;
-  padding:8px;
-  display:inline;
+label, input, textarea{
+  display: block;
 }
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
 @media only screen and (min-width: 700px) {

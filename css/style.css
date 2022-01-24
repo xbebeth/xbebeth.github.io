@@ -385,6 +385,7 @@ div.lotfbook:hover{
 h2:hover{
   color:#E7656E;
   transition: 0.5s;
+  cursor:grab;
 }
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
 @media only screen and (min-width: 700px) {

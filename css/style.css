@@ -28,6 +28,7 @@ html{
   overflow: hidden;
   background-color: #D4FBF6;
   position: relative;
+  width:100vw;
 }
 #desktop-nav #mobile-nav, #desktop-nav #desktop-true-nav {
   display: none;

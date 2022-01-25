@@ -184,6 +184,14 @@ div.lotfbook:hover{
   background-image:url('../img/lotfbook.jpg');
   transition: 0.5s;
 }
+div.gmpostcards{
+  background-image:url('../img/gmpostcards-true.jpg');
+  transition: 0.5s;
+}
+div.gmpostcards:hover{
+  background-image:url('../img/gmpostcards.jpg');
+  transition: 0.5s;
+}
 h2:hover{
   transition: 0.5s;
   cursor:grab;

@@ -194,7 +194,7 @@ button#centerbutton:hover{
   color: #FFF;
 }
 /*THIS IS FOR THE GRID-BASED PAGES ===============================================*/
-h1.portfolio-title{
+/*h1.portfolio-title{
   color:#E7656E;
   font-weight: 600;
   font-size: 20px;
@@ -381,7 +381,7 @@ h2:hover{
   color:#E7656E;
   transition: 0.5s;
   cursor:grab;
-}
+}*/
 /*THIS IS FOR THE CONTACT FORM====================================================*/
 label, input, textarea{
   display: block;
@@ -565,7 +565,7 @@ div#resume-img img{
   margin-top: 0;
 }
 /*THIS IS FOR THE GRID-BASED PAGES ===============================================*/
-div.grid{
+/*div.grid{
   margin:-20px auto;
 }
 }
@@ -583,7 +583,7 @@ div#header-intro p{
 img#desktop-portrait{
   max-width: 480px;
   margin-left: 200px;
-}
+}*/
 /*==========================================================THIS IS THE ABOUT PAGE*/
 div#menu-img img{
   width:600px;

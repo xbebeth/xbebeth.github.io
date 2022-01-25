@@ -13,7 +13,7 @@ $(document).ready(function(){
             event.preventDefault()
             statusElm.append('<p>email is not valid</p>')
         }
-        if(subject.length > 1){
+        if(subject.length >= 2){
             statusElm.append('<p>Subject is valid</p>')
         }else{
             event.preventDefault()

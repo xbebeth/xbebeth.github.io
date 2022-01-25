@@ -1,0 +1,214 @@
+@charset "utf-8";
+/*THIS IS FOR THE GRID-BASED PAGES ===============================================*/
+h1.portfolio-title{
+  color:#E7656E;
+  font-weight: 600;
+  font-size: 20px;
+  text-align:center;
+}
+h2{
+  height:220px;
+  font-weight: 600;
+  padding:0;
+  margin:0;
+  line-height:205px;
+  text-align: center;
+  color:#FFF;
+  transition: 0.5s;
+}
+div.grid{
+  width:95%;
+  padding:2% 2%;
+  margin:-10px auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height:58vh;
+}
+div.onecol{
+  padding:15px;
+  height:250px;
+  width:413px;
+  margin:8px;
+}
+div.vgmural{
+  background-image:url('../img/vgmural-true.jpg');
+  transition: 0.5s;
+}
+div.vgmural:hover{
+  background-image:url('../img/vgmural.jpg');
+  transition: 0.5s;
+}
+div.fmountains{
+  background-image:url('../img/fmountains-true.jpg');
+  transition: 0.5s;
+}
+div.fmountains:hover{
+  background-image:url('../img/fmountains.jpg');
+  transition: 0.5s;
+}
+div.azulejos{
+  background-image:url('../img/azulejos-true.jpg');
+  transition: 0.5s;
+}
+div.azulejos:hover{
+  background-image:url('../img/azulejos.jpg');
+  transition: 0.5s;
+}
+div.fleaves{
+  background-image:url('../img/fleaves-true.jpg');
+  transition: 0.5s;
+}
+div.fleaves:hover{
+  background-image:url('../img/fleaves.jpg');
+  transition: 0.5s;
+}
+div.iposters{
+  background-image:url('../img/iposters-true.jpg');
+  transition: 0.5s;
+}
+div.iposters:hover{
+  background-image:url('../img/iposters.jpg');
+  transition: 0.5s;
+}
+div.cbanner{
+  background-image:url('../img/cbanner-true.jpg');
+  transition: 0.5s;
+}
+div.cbanner:hover{
+  background-image:url('../img/cbanner.jpg');
+  transition: 0.5s;
+}
+div.istories{
+  background-image:url('../img/istories-true.jpg');
+  transition: 0.5s;
+}
+div.istories:hover{
+  background-image:url('../img/istories.jpg');
+  transition: 0.5s;
+}
+div.hypo1{
+  background-image:url('../img/hypo1-true.jpg');
+  transition: 0.5s;
+}
+div.hypo1:hover{
+  background-image:url('../img/hypo1.jpg');
+  transition: 0.5s;
+}
+div.hypo2{
+  background-image:url('../img/hypo2-true.jpg');
+  transition: 0.5s;
+}
+div.hypo2:hover{
+  background-image:url('../img/hypo2.jpg');
+  transition: 0.5s;
+}
+div.oranges1{
+  background-image:url('../img/oranges1-true.jpg');
+  transition: 0.5s;
+}
+div.oranges1:hover{
+  background-image:url('../img/oranges1.jpg');
+  transition: 0.5s;
+}
+div.taprayers{
+  background-image:url('../img/taprayers-true.jpg');
+  transition: 0.5s;
+}
+div.taprayers:hover{
+  background-image:url('../img/taprayers.jpg');
+  transition: 0.5s;
+}
+div.tspill{
+  background-image:url('../img/tspill-true.jpg');
+  transition: 0.5s;
+}
+div.tspill:hover{
+  background-image:url('../img/tspill.jpg');
+  transition: 0.5s;
+}
+div.llttcorange{
+  background-image:url('../img/llttcorange-true.jpg');
+  transition: 0.5s;
+}
+div.llttcorange:hover{
+  background-image:url('../img/llttcorange.jpg');
+  transition: 0.5s;
+}
+div.shands{
+  background-image:url('../img/shands-true.jpg');
+  transition: 0.5s;
+}
+div.shands:hover{
+  background-image:url('../img/shands.jpg');
+  transition: 0.5s;
+}
+div.ink{
+  background-image:url('../img/ink-true.jpg');
+  transition: 0.5s;
+}
+div.ink:hover{
+  background-image:url('../img/ink.jpg');
+  transition: 0.5s;
+}
+div.komorebi{
+  background-image:url('../img/komorebi-true.jpg');
+  transition: 0.5s;
+}
+div.komorebi:hover{
+  background-image:url('../img/komorebi.jpg');
+  transition: 0.5s;
+}
+div.atbrochure{
+  background-image:url('../img/atbrochure-true.jpg');
+  transition: 0.5s;
+}
+div.atbrochure:hover{
+  background-image:url('../img/atbrochure.jpg');
+  transition: 0.5s;
+}
+div.camcover{
+  background-image:url('../img/camcover-true.jpg');
+  transition: 0.5s;
+}
+div.camcover:hover{
+  background-image:url('../img/camcover.jpg');
+  transition: 0.5s;
+}
+div.lotfbook{
+  background-image:url('../img/lotfbook-true.jpg');
+  transition: 0.5s;
+}
+div.lotfbook:hover{
+  background-image:url('../img/lotfbook.jpg');
+  transition: 0.5s;
+}
+h2:hover{
+  color:#E7656E;
+  transition: 0.5s;
+  cursor:grab;
+}
+/*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
+@media only screen and (min-width: 1046px) {
+/*THIS IS FOR THE GRID-BASED PAGES ===============================================*/
+div.grid{
+  margin:-20px auto;
+}
+}
+@media only screen and (min-width: 1330px) {
+div#header{
+  width: 45%;
+}
+div#header-intro{
+  width: 40%;
+  padding: 10% 8%;
+}
+div#header-intro p{
+  width: 150%;
+}
+img#desktop-portrait{
+  max-width: 480px;
+  margin-left: 200px;
+}
+}

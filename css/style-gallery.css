@@ -185,9 +185,23 @@ div.lotfbook:hover{
   transition: 0.5s;
 }
 h2:hover{
-  color:#E7656E;
   transition: 0.5s;
   cursor:grab;
+}
+.hidden{
+  opacity:0;
+  transition: 0.5s;
+}
+.hidden:hover{
+  opacity:1;
+  transition:0.5s;
+}
+h2.red{
+  color:#E7656E;
+}
+h5.design-det{
+  text-align: center;
+  margin-top:-105px;
 }
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
 @media only screen and (min-width: 1046px) {

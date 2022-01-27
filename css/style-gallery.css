@@ -22,8 +22,8 @@ h5.instructions{
 }
 div.grid{
   width:95%;
-  padding:2% 2.5%;
   margin:-10px auto;
+  padding-top:2%;
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
@@ -256,6 +256,11 @@ h5.design-det{
   margin-top:-105px;
 }
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
+@media only screen and (min-width: 700px) {
+  div.grid{
+    padding:2% 2.5%;
+  }
+}
 @media only screen and (min-width: 1046px) {
 /*THIS IS FOR THE GRID-BASED PAGES ===============================================*/
 div.grid{

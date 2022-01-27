@@ -196,6 +196,30 @@ div.gmpostcards:hover{
   background-image:url('../img/gmpostcards.jpg');
   transition: 0.5s;
 }
+div.vposter{
+  background-image:url('../img/vposter-true.jpg');
+  transition: 0.5s;
+}
+div.vposter:hover{
+  background-image:url('../img/vposter.jpg');
+  transition: 0.5s;
+}
+div.twstoo{
+  background-image:url('../img/twstoo-true.jpg');
+  transition: 0.5s;
+}
+div.twstoo:hover{
+  background-image:url('../img/twstoo.jpg');
+  transition: 0.5s;
+}
+div.folklore{
+  background-image:url('../img/folklore-true.jpg');
+  transition: 0.5s;
+}
+div.folklore:hover{
+  background-image:url('../img/folklore.jpg');
+  transition: 0.5s;
+}
 h2:hover{
   transition: 0.5s;
   cursor:grab;

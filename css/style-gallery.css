@@ -220,6 +220,22 @@ div.folklore:hover{
   background-image:url('../img/folklore.jpg');
   transition: 0.5s;
 }
+div.aeetages{
+  background-image:url('../img/aeetages-true.jpg');
+  transition: 0.5s;
+}
+div.aeetages:hover{
+  background-image:url('../img/aeetages.jpg');
+  transition: 0.5s;
+}
+div.nzines{
+  background-image:url('../img/nzines-true.jpg');
+  transition: 0.5s;
+}
+div.nzines:hover{
+  background-image:url('../img/nzines.jpg');
+  transition: 0.5s;
+}
 h2:hover{
   transition: 0.5s;
   cursor:grab;

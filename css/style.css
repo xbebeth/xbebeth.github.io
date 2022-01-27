@@ -74,6 +74,22 @@ html{
   width: 60px;
   z-index: -1;
 }
+/*===================================================THIS IS THE LANGUAGES BUTTONS*/
+a.fixed-lang-button{
+  display: none;
+  position:fixed;
+  margin:15px;
+  color:#E7656E;
+}
+a.fixed-lang-button:hover{
+  color:#3DBCB4;
+}
+a#fr-button{
+  right:40px;
+}
+a#en-button{
+  right:0;
+}
 /*==============================================================THIS IS THE HEADER*/
 div#header img{
   display: block;
@@ -196,9 +212,35 @@ button#centerbutton:hover{
 /*THIS IS FOR THE CONTACT FORM====================================================*/
 label, input, textarea{
   display: block;
+  color:#147E70;
+}
+input, textarea{
+  border: 1px solid #3DBCB4;
+  width:100%;
+  padding:20px;
+}
+label{
+  padding-top:20px;
+}
+textarea{
+  min-height:30vh;
+}
+div#thecontactform{
+  padding:5%;
+}
+h1.contact-title{
+  font-size: 25px;
+  color:#EF939C;
+}
+h1#contact-title-bold{
+  font-weight: 600;
+  color:#E7656E;
 }
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
 @media only screen and (min-width: 700px) {
+  a.fixed-lang-button{
+    display: block;
+  }
   #desktop-nav #mobile-nav a{
   display: none;
   }

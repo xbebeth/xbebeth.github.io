@@ -227,6 +227,7 @@ textarea{
 }
 div#thecontactform{
   padding:5%;
+  overflow: hidden;
 }
 h1.contact-title{
   font-size: 25px;

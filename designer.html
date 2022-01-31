@@ -14,6 +14,11 @@
 		<title>Elisabeth's portfolio</title>
 	</head>
 	<body> 
+		<div id="detwin">
+			<a id="closewin" onclick="closeme();">Fermer X</a>
+			<p>Site en construction... Plus de détails bientôt!</p>
+		</div>
+		<div id="allcontent">
 		<div id="desktop-nav">
 			<a id="nav-title" href="index.html">Le portfolio d’Elisabeth</a>
 			<div id="mobile-nav">
@@ -36,7 +41,7 @@
 			<a class="lang-button" href="designer-EN.html">EN</a>
 			<a class="lang-button" id="lang-FR" href="designer.html">FR |</a>
 		</div>
-		<div>
+		<div id="lang-div">
 			<a id ="en-button" class="fixed-lang-button" href="designer-EN.html">EN</a>
 			<a id="fr-button" class="fixed-lang-button" href="designer.html">FR</a>
 		</div>
@@ -45,37 +50,47 @@
 			<h5 class="instructions">Placez le curseur par-dessus les images & cliquez pour plus de détails</h5>
 		</div>
 		<div class="grid">
-			<div class="onecol komorebi">
-				<div class="hidden">
-					<h2 class="red">Komorebi</h2>
-					<h5 class="design-det">Emballage de CD & livret de paroles</h5>
+			<a class="button-det-win" onclick="showKomo();">
+				<div class="onecol komorebi">
+					<div class="hidden">
+						<h2 class="red">Komorebi</h2>
+						<h5 class="design-det">Emballage de CD & livret de paroles</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol atbrochure">
-				<div class="hidden">
-					<h2 class="red">Pamphlet lyrique</h2>
-					<h5 class="design-det">Pamphlet de typographie visuellement abstraite</h5>
+			</a>
+			<a class="button-det-win" onclick="showAtbr();">
+				<div class="onecol atbrochure">
+					<div class="hidden">
+						<h2 class="red">Pamphlet lyrique</h2>
+						<h5 class="design-det">Pamphlet de typographie visuellement abstraite</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol camcover">
-				<div class="hidden">
-					<h2 class="red">CINE ASTR</h2>
-					<h5 class="design-det">Couverture d’un magazine fictif</h5>
+			</a>
+			<a class="button-det-win" onclick="showCamc();">	
+				<div class="onecol camcover">
+					<div class="hidden">
+						<h2 class="red">CINE ASTR</h2>
+						<h5 class="design-det">Couverture d’un magazine fictif</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol lotfbook">
-				<div class="hidden">
-					<h2 class="red">Sa majesté des mouches</h2>
-					<h5 class="design-det">Re-design de la couverture d’un livre</h5>
+			</a>
+			<a class="button-det-win" onclick="showLotf();">
+				<div class="onecol lotfbook">
+					<div class="hidden">
+						<h2 class="red">Sa majesté des mouches</h2>
+						<h5 class="design-det">Re-design de la couverture d’un livre</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol vposter">
-				<div class="hidden">
-					<h2 class="red">Affiche de vernissage</h2>
-					<h5 class="design-det">Affiche typographique style bahaus</h5>
+			</a>
+			<a class="button-det-win" onclick="showVpos();">	
+				<div class="onecol vposter">
+					<div class="hidden">
+						<h2 class="red">Affiche de vernissage</h2>
+						<h5 class="design-det">Affiche typographique style bahaus</h5>
+					</div>
 				</div>
+			</a>
 			</div>
-		</div>
 		<div class="one-col blueback">
 			<div id="resume-img">
 				<img src="img/elisabeth.jpg" />
@@ -85,6 +100,7 @@
 				<p>Quel que soit le projet de design, je suis prête à vous donner un coup de main. Identité de marque? Logo, pamphlet, affiche, emballages ou un site web? Que ce soit en impression ou en mode digital, j’intérioriserai votre image pour créer quelque chose propre à vous. Cliquez en bas pour m’écrire un message!</p>
 				<button id="centerbutton" onclick="window.location.href='contact.html'">Écrivez-moi</button>
 			</div>
+		</div>
 		</div>
 	</body>
 	<footer>

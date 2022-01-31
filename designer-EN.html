@@ -14,6 +14,11 @@
 		<title>Elisabeth's portfolio</title>
 	</head>
 	<body> 
+		<div id="detwin">
+			<a id="closewin" onclick="closeme();">Close X</a>
+			<p>Website under construction... More details to come soon!</p>
+		</div>
+		<div id="allcontent">
 		<div id="desktop-nav">
 			<a id="nav-title" href="index-EN.html">Elisabeth's Portfolio</a>
 			<div id="mobile-nav">
@@ -36,7 +41,7 @@
 			<a class="lang-button" href="designer-EN.html">EN</a>
 			<a class="lang-button" id="lang-FR" href="designer.html">FR |</a>
 		</div>
-		<div>
+		<div id="lang-div">
 			<a id ="en-button" class="fixed-lang-button" href="designer-EN.html">EN</a>
 			<a id="fr-button" class="fixed-lang-button" href="designer.html">FR</a>
 		</div>
@@ -45,36 +50,46 @@
 			<h5 class="instructions">Hover & click on the images for more details</h5>
 		</div>
 		<div class="grid">
-			<div class="onecol komorebi">
-				<div class="hidden">
-					<h2 class="red">Komorebi</h2>
-					<h5 class="design-det">CD packaging & lyric booklet</h5>
+			<a class="button-det-win" onclick="showKomo();">
+				<div class="onecol komorebi">
+					<div class="hidden">
+						<h2 class="red">Komorebi</h2>
+						<h5 class="design-det">CD packaging & lyric booklet</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol atbrochure">
-				<div class="hidden">
-					<h2 class="red">Lyrical brochure</h2>
-					<h5 class="design-det">Abstract typography brochure</h5>
+			</a>
+			<a class="button-det-win" onclick="showAtbr();">
+				<div class="onecol atbrochure">
+					<div class="hidden">
+						<h2 class="red">Lyrical brochure</h2>
+						<h5 class="design-det">Abstract typography brochure</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol camcover">
-				<div class="hidden">
-					<h2 class="red">CINE ASTR</h2>
-					<h5 class="design-det">Fictive magazine cover design</h5>
+			</a>
+			<a class="button-det-win" onclick="showCamc();">
+				<div class="onecol camcover">
+					<div class="hidden">
+						<h2 class="red">CINE ASTR</h2>
+						<h5 class="design-det">Fictive magazine cover design</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol lotfbook">
-				<div class="hidden">
-					<h2 class="red">Lord of the Flies</h2>
-					<h5 class="design-det">Book cover design</h5>
+			</a>
+			<a class="button-det-win" onclick="showLotf();">
+				<div class="onecol lotfbook">
+					<div class="hidden">
+						<h2 class="red">Lord of the Flies</h2>
+						<h5 class="design-det">Book cover design</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol vposter">
-				<div class="hidden">
-					<h2 class="red">Vernissage poster</h2>
-					<h5 class="design-det">Typographic bahaus inspired poster</h5>
+			</a>
+			<a class="button-det-win" onclick="showVpos();">
+				<div class="onecol vposter">
+					<div class="hidden">
+						<h2 class="red">Vernissage poster</h2>
+						<h5 class="design-det">Typographic bahaus inspired poster</h5>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 		<div class="one-col blueback">
 			<div id="resume-img">
@@ -86,6 +101,7 @@
 				<button id="centerbutton" onclick="window.location.href='contact-EN.html'">Contact</button>
 			</div>
 		</div>
+	</div>
 	</body>
 	<footer>
 		<p>©2022 ELISABETH GAMACHE-LAVOIE</p>

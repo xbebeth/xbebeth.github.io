@@ -255,6 +255,28 @@ h5.design-det{
   text-align: center;
   margin-top:-105px;
 }
+/*THIS IS FOR THE DETAIL WINDOWS =================================================*/
+#detwin{
+  width:90vw;
+  min-height:80vh;
+  border:1px solid #3DBCB4;
+  z-index: 900;
+  position: fixed;
+  left:5vw;
+  right:5vw;
+  display: none;
+  background-color: #FFF;
+  margin-top:10vh;
+}
+a#closewin{
+  position: absolute;
+  right: 15;
+  top:10;
+  color:#3DBCB4;
+}
+a#closewin:hover{
+  cursor:grab;
+}
 /*THIS IS FOR BIGGER SCREENS ABOVE MOBILE=========================================*/
 @media only screen and (min-width: 700px) {
   div.grid{

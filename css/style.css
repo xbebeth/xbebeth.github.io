@@ -78,8 +78,8 @@ html{
 a.fixed-lang-button{
   display: none;
   position:fixed;
-  margin:15px;
-  color:#E7656E;
+  line-height: 30px;
+  color:#D4FBF6;
 }
 a.fixed-lang-button:hover{
   color:#3DBCB4;
@@ -240,6 +240,16 @@ h1#contact-title-bold{
 @media only screen and (min-width: 700px) {
   a.fixed-lang-button{
     display: block;
+    padding-right: 9px;
+  }
+  div#lang-div{
+    position:fixed;
+    margin-top:6px;
+    right:-20px;
+    background-color:#147E70;
+    width: 105px;
+    height: 30px;
+    border-radius: 15px;
   }
   #desktop-nav #mobile-nav a{
   display: none;

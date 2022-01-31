@@ -14,6 +14,11 @@
 		<title>Elisabeth's portfolio</title>
 	</head>
 	<body> 
+		<div id="detwin">
+			<a id="closewin" onclick="closeme();">Fermer X</a>
+			<p>Site en construction... Plus de détails bientôt!</p>
+		</div>
+		<div id="allcontent">
 		<div id="desktop-nav">
 			<a id="nav-title" href="index.html">Le portfolio d’Elisabeth</a>
 			<div id="mobile-nav">
@@ -45,66 +50,86 @@
 			<h5 class="instructions">Placez le curseur par-dessus les images & cliquez pour plus de détails</h5>
 		</div>
 		<div class="grid">
-			<div class="onecol vgmural">
-				<div class="hidden">
-					<h2 class="red">Murale Van Gogh</h2>
-					<h5 class="design-det">Projet de peinture d’une murale enseigné aux étudiants dans le cadre de leur parcours de formation axée sur l’emploi à l’école secondaire LINKS</h5>
+			<a class="button-det-win" onclick="showVgmu();">
+				<div class="onecol vgmural">
+					<div class="hidden">
+						<h2 class="red">Murale Van Gogh</h2>
+						<h5 class="design-det">Projet de peinture d’une murale enseigné aux étudiants dans le cadre de leur parcours de formation axée sur l’emploi à l’école secondaire LINKS</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol fmountains">
-				<div class="hidden">
-					<h2 class="red">Montagnes féériques</h2>
-					<h5 class="design-det">Projet d’introduction de l’art abstrait enseigné aux élèves du programme DÉFI à l’école secondaire LINKS</h5>
+			</a>
+			<a class="button-det-win" onclick="showFmou();">
+				<div class="onecol fmountains">
+					<div class="hidden">
+						<h2 class="red">Montagnes féériques</h2>
+						<h5 class="design-det">Projet d’introduction de l’art abstrait enseigné aux élèves du programme DÉFI à l’école secondaire LINKS</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol iposters">
-				<div class="hidden">
-					<h2 class="red">Affiches intuitives</h2>
-					<h5 class="design-det">Affiches inspirées par le graphisme aux procédés intuitifs enseigné à des élèves du programme DÉFI à l’école secondaire LINKS</h5>
+			</a>
+			<a class="button-det-win" onclick="showIpos();">
+				<div class="onecol iposters">
+					<div class="hidden">
+						<h2 class="red">Affiches intuitives</h2>
+						<h5 class="design-det">Affiches inspirées par le graphisme aux procédés intuitifs enseigné à des élèves du programme DÉFI à l’école secondaire LINKS</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol cbanner">
-				<div class="hidden">
-					<h2 class="red">Bannière communautaire</h2>
-					<h5 class="design-det">Projet collaboratif d’imprimerie et de couture créé pour l’enseignement au secondaire</h5>
+			</a>
+			<a class="button-det-win" onclick="showCban();">
+				<div class="onecol cbanner">
+					<div class="hidden">
+						<h2 class="red">Bannière communautaire</h2>
+						<h5 class="design-det">Projet collaboratif d’imprimerie et de couture créé pour l’enseignement au secondaire</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol fleaves">
-				<div class="hidden">
-					<h2 class="red">Feuilles d’automne</h2>
-					<h5 class="design-det">Introduction d’un projet de procédés artistiques éphémères enseigné à des élèves de première année à l’école primaire Hampstead</h5>
+			</a>
+			<a class="button-det-win" onclick="showFlea();">
+				<div class="onecol fleaves">
+					<div class="hidden">
+						<h2 class="red">Feuilles d’automne</h2>
+						<h5 class="design-det">Introduction d’un projet de procédés artistiques éphémères enseigné à des élèves de première année à l’école primaire Hampstead</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol azulejos">
-				<div class="hidden">
-					<h2 class="red">Azulejos</h2>
-					<h5 class="design-det">Projet de dessin enseigné aux élèves du programme DÉFI à l’école secondaire LINKS</h5>
+			</a>
+			<a class="button-det-win" onclick="showAzul();">
+				<div class="onecol azulejos">
+					<div class="hidden">
+						<h2 class="red">Azulejos</h2>
+						<h5 class="design-det">Projet de dessin enseigné aux élèves du programme DÉFI à l’école secondaire LINKS</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol gmpostcards">
-				<div class="hidden">
-					<h2 class="red">Cartes postales Google Maps</h2>
-					<h5 class="design-det">Plan de leçon créé pour introduire l’art digital et ses procédés artistiques pour un groupe d’étudiants séniors</h5>
+			</a>
+			<a class="button-det-win" onclick="showGmpo();">
+				<div class="onecol gmpostcards">
+					<div class="hidden">
+						<h2 class="red">Cartes postales Google Maps</h2>
+						<h5 class="design-det">Plan de leçon créé pour introduire l’art digital et ses procédés artistiques pour un groupe d’étudiants séniors</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol aeetages">
-				<div class="hidden">
-					<h2 class="red">L'art en étages</h2>
-					<h5 class="design-det">Plan de leçon créé pour introduire le concept d'avant et arrière plans enseigné à un groupe de séniors au YMCA</h5>
+			</a>
+			<a class="button-det-win" onclick="showAeet();">
+				<div class="onecol aeetages">
+					<div class="hidden">
+						<h2 class="red">L'art en étages</h2>
+						<h5 class="design-det">Plan de leçon créé pour introduire le concept d'avant et arrière plans enseigné à un groupe de séniors au YMCA</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol nzines">
-				<div class="hidden">
-					<h2 class="red">Zines narratifs</h2>
-					<h5 class="design-det">Plan de leçon créé pour explorer la notion de l'histoire et la narration à travers l'art enseigné à un groupe de séniors au YMCA</h5>
+			</a>
+			<a class="button-det-win" onclick="showNzin();">
+				<div class="onecol nzines">
+					<div class="hidden">
+						<h2 class="red">Zines narratifs</h2>
+						<h5 class="design-det">Plan de leçon créé pour explorer la notion de l'histoire et la narration à travers l'art enseigné à un groupe de séniors au YMCA</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol istories">
-				<div class="hidden">
-					<h2 class="red">Histoires illustrées</h2>
-					<h5 class="design-det">Histoires illustrées courtes créées pour des étudiants de première année à l’école primaire Hampstead</h5>
+			</a>
+			<a class="button-det-win" onclick="showIsto();">
+				<div class="onecol istories">
+					<div class="hidden">
+						<h2 class="red">Histoires illustrées</h2>
+						<h5 class="design-det">Histoires illustrées courtes créées pour des étudiants de première année à l’école primaire Hampstead</h5>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 		<div class="one-col blueback">
 			<div id="resume-img">
@@ -116,6 +141,7 @@
 				<button id="centerbutton" onclick="window.open('teaching-portfolio-elisabeth-gl.pdf')">Télécharger</button>
 			</div>
 		</div>
+	</div>
 	</body>
 	<footer>
 		<p>©2022 ELISABETH GAMACHE-LAVOIE</p>

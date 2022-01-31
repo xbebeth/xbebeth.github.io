@@ -14,6 +14,11 @@
 		<title>Elisabeth's portfolio</title>
 	</head>
 	<body> 
+		<div id="detwin">
+			<a id="closewin" onclick="closeme();">Close X</a>
+			<p>Website under construction... More details to come soon!</p>
+		</div>
+		<div id="allcontent">
 		<div id="desktop-nav">
 			<a id="nav-title" href="index-EN.html">Elisabeth's Portfolio</a>
 			<div id="mobile-nav">
@@ -45,66 +50,86 @@
 			<h5 class="instructions">Hover & click on the images for more details</h5>
 		</div>
 		<div class="grid">
-			<div class="onecol vgmural">
-				<div class="hidden">
-					<h2 class="red">Van Gogh Mural</h2>
-					<h5 class="design-det">Painting project taught to WOTP stage students at LINKS High School</h5>
+			<a class="button-det-win" onclick="showVgmu();">
+				<div class="onecol vgmural">
+					<div class="hidden">
+						<h2 class="red">Van Gogh Mural</h2>
+						<h5 class="design-det">Painting project taught to WOTP stage students at LINKS High School</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol fmountains">
-				<div class="hidden">
-					<h2 class="red">Fantasy Mountains</h2>
-					<h5 class="design-det">Abstract painting unit plan taught to DEFI students at LINKS High School</h5>
+			</a>
+			<a class="button-det-win" onclick="showFmou();">
+				<div class="onecol fmountains">
+					<div class="hidden">
+						<h2 class="red">Fantasy Mountains</h2>
+						<h5 class="design-det">Abstract painting unit plan taught to DEFI students at LINKS High School</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol iposters">
-				<div class="hidden">
-					<h2 class="red">Intuitive posters</h2>
-					<h5 class="design-det">Graphic design inspired posters project taught to DEFI students at LINKS High School</h5>
+			</a>
+			<a class="button-det-win" onclick="showIpos();">
+				<div class="onecol iposters">
+					<div class="hidden">
+						<h2 class="red">Intuitive posters</h2>
+						<h5 class="design-det">Graphic design inspired posters project taught to DEFI students at LINKS High School</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol cbanner">
-				<div class="hidden">
-					<h2 class="red">Community Banner</h2>
-					<h5 class="design-det">Printing and sewing collaborative unit plan designed for high school students</h5>
+			</a>
+			<a class="button-det-win" onclick="showCban();">
+				<div class="onecol cbanner">
+					<div class="hidden">
+						<h2 class="red">Community Banner</h2>
+						<h5 class="design-det">Printing and sewing collaborative unit plan designed for high school students</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol fleaves">
-				<div class="hidden">
-					<h2 class="red">Fallen Leaves</h2>
-					<h5 class="design-det">Ephemeral processes in art unit plan taught to first grade students at Hampstead Elementary</h5>
+			</a>
+			<a class="button-det-win" onclick="showFlea();">
+				<div class="onecol fleaves">
+					<div class="hidden">
+						<h2 class="red">Fallen Leaves</h2>
+						<h5 class="design-det">Ephemeral processes in art unit plan taught to first grade students at Hampstead Elementary</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol azulejos">
-				<div class="hidden">
-					<h2 class="red">Azulejos</h2>
-					<h5 class="design-det">Drawing unit plan taught to DEFI students at LINKS High School</h5>
+			</a>
+			<a class="button-det-win" onclick="showAzul();">
+				<div class="onecol azulejos">
+					<div class="hidden">
+						<h2 class="red">Azulejos</h2>
+						<h5 class="design-det">Drawing unit plan taught to DEFI students at LINKS High School</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol gmpostcards">
-				<div class="hidden">
-					<h2 class="red">Google Maps Postcards</h2>
-					<h5 class="design-det">Lesson plan created as an introduction to digital art and practices</h5>
+			</a>
+			<a class="button-det-win" onclick="showGmpo();">
+				<div class="onecol gmpostcards">
+					<div class="hidden">
+						<h2 class="red">Google Maps Postcards</h2>
+						<h5 class="design-det">Lesson plan created as an introduction to digital art and practices</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol aeetages">
-				<div class="hidden">
-					<h2 class="red">Art in layers</h2>
-					<h5 class="design-det">Lesson plan designed to introduce background and foreground taught to a group of seniors at the YMCA</h5>
+			</a>
+			<a class="button-det-win" onclick="showAeet();">
+				<div class="onecol aeetages">
+					<div class="hidden">
+						<h2 class="red">Art in layers</h2>
+						<h5 class="design-det">Lesson plan designed to introduce background and foreground taught to a group of seniors at the YMCA</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol nzines">
-				<div class="hidden">
-					<h2 class="red">Narrative zines</h2>
-					<h5 class="design-det">Lesson plan designed to explore the notion of story and narration through art taught to a group of seniors at the YMCA</h5>
+			</a>
+			<a class="button-det-win" onclick="showNzin();">
+				<div class="onecol nzines">
+					<div class="hidden">
+						<h2 class="red">Narrative zines</h2>
+						<h5 class="design-det">Lesson plan designed to explore the notion of story and narration through art taught to a group of seniors at the YMCA</h5>
+					</div>
 				</div>
-			</div>
-			<div class="onecol istories">
-				<div class="hidden">
-					<h2 class="red">Illustrated stories</h2>
-					<h5 class="design-det">Short illustrated stories created for first grade students at Hampstead Elementary</h5>
+			</a>
+			<a class="button-det-win" onclick="showIsto();">
+				<div class="onecol istories">
+					<div class="hidden">
+						<h2 class="red">Illustrated stories</h2>
+						<h5 class="design-det">Short illustrated stories created for first grade students at Hampstead Elementary</h5>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 		<div class="one-col blueback">
 			<div id="resume-img">
@@ -116,6 +141,7 @@
 				<button id="centerbutton" onclick="window.open('teaching-portfolio-elisabeth-gl.pdf')">Download</button>
 			</div>
 		</div>
+	</div>
 	</body>
 	<footer>
 		<p>©2022 ELISABETH GAMACHE-LAVOIE</p>

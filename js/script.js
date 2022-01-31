@@ -8,7 +8,7 @@ function openNav() {
   }
 }
 
-//Code for the detail windows
+//Code for the detail windows DESIGNER
 function showKomo(){
   document.getElementById('allcontent').style.opacity="0.3";
   document.getElementById('detwin').style.display="block";
@@ -32,4 +32,46 @@ function showVpos(){
 function closeme(){
   document.getElementById('detwin').style.display="none";
   document.getElementById('allcontent').style.opacity="1";
+}
+
+//Code for the detail windows EDUCATOR
+function showVgmu(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showFmou(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showIpos(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showCban(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showFlea(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showAzul(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showGmpo(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showAeet(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showNzin(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
+}
+function showIsto(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwin').style.display="block";
 }

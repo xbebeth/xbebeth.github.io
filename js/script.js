@@ -49,8 +49,12 @@ function showIpos(){
 }
 function showCban(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinCB').style.display="block";
 }
+      function closemeCB(){
+      document.getElementById('detwinCB').style.display="none";
+      document.getElementById('allcontent').style.opacity="1";
+      }
 function showFlea(){
   document.getElementById('allcontent').style.opacity="0.3";
   document.getElementById('detwin').style.display="block";

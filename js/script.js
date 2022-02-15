@@ -37,8 +37,12 @@ function closeme(){
 //Code for the detail windows EDUCATOR
 function showVgmu(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinVG').style.display="block";
 }
+     function closemeVG(){
+       document.getElementById('detwinVG').style.display="none";
+       document.getElementById('allcontent').style.opacity="1";
+      }
 function showFmou(){
   document.getElementById('allcontent').style.opacity="0.3";
   document.getElementById('detwin').style.display="block";

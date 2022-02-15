@@ -256,10 +256,9 @@ h5.design-det{
   margin-top:-105px;
 }
 /*THIS IS FOR THE DETAIL WINDOWS ===================MOBILE========================*/
-#detwin, #detwinCB{
+#detwin, #detwinCB, #detwinVG{
   width:95vw;
   min-height:90vh;
-  border:1px solid #3DBCB4;
   z-index: 900;
   position: fixed;
   top: 0;
@@ -355,8 +354,7 @@ div.grid{
   margin:-30px auto;
 }
 /*THIS IS FOR THE DETAIL WINDOWS =================================================*/
-#detwin, #detwinCB{
-  border:1px solid #3DBCB4;
+#detwin, #detwinCB, #detwinVG{
   top: 3vh;
   bottom:3vh;
   right:3vw;
@@ -387,6 +385,9 @@ div.box-det-ob{
 }
 h3.center{
   margin-top:40px;
+}
+button.det-button{
+  clear: both;
 }
 }
 @media only screen and (min-width: 1330px) {
@@ -429,6 +430,9 @@ h3.centerbig{
 }
 img.det-prototype{
   width:450px;
+}
+img.VG{
+  width:600px;
 }
 div.box-det{
   width:20%;

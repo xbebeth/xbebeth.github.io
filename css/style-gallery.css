@@ -326,10 +326,8 @@ div.box-det-ob{
   width: 60%;
 }
 a#closewin{
-  position: absolute;
-  right: 15;
-  top:10;
   color:#3DBCB4;
+  float: right;
 }
 a#closewin:hover{
   cursor:grab;

@@ -11,75 +11,87 @@ function openNav() {
 //Code for the detail windows DESIGNER
 function showKomo(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinKO').style.display="block";
 }
 function showAtbr(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinAT').style.display="block";
 }
 function showCamc(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinCA').style.display="block";
 }
 function showLotf(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinLO').style.display="block";
 }
 function showVpos(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinVP').style.display="block";
 }
+//Code for closing for both DESIGNER and EDUCATOR
 function closeme(){
-  document.getElementById('detwin').style.display="none";
   document.getElementById('allcontent').style.opacity="1";
+  document.getElementById('detwinKO').style.display="none";
+  document.getElementById('detwinAT').style.display="none";
+  document.getElementById('detwinCA').style.display="none";
+  document.getElementById('detwinLO').style.display="none";
+  document.getElementById('detwinVP').style.display="none";
 }
+function closemeED(){
+  document.getElementById('allcontent').style.opacity="1";
+  document.getElementById('detwinVG').style.display="none";
+  document.getElementById('detwinFM').style.display="none";
+  document.getElementById('detwinIP').style.display="none";
+  document.getElementById('detwinCB').style.display="none";
+  document.getElementById('detwinFL').style.display="none";
+  document.getElementById('detwinAZ').style.display="none";
+  document.getElementById('detwinGM').style.display="none";
+  document.getElementById('detwinAE').style.display="none";
+  document.getElementById('detwinNZ').style.display="none";
+  document.getElementById('detwinIS').style.display="none";
+}
+
 
 //Code for the detail windows EDUCATOR
 function showVgmu(){
   document.getElementById('allcontent').style.opacity="0.3";
   document.getElementById('detwinVG').style.display="block";
 }
-     function closemeVG(){
-       document.getElementById('detwinVG').style.display="none";
-       document.getElementById('allcontent').style.opacity="1";
-      }
 function showFmou(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinFM').style.display="block";
 }
 function showIpos(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinIP').style.display="block";
 }
 function showCban(){
   document.getElementById('allcontent').style.opacity="0.3";
   document.getElementById('detwinCB').style.display="block";
 }
-      function closemeCB(){
-      document.getElementById('detwinCB').style.display="none";
-      document.getElementById('allcontent').style.opacity="1";
-      }
 function showFlea(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinFL').style.display="block";
 }
 function showAzul(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinAZ').style.display="block";
 }
 function showGmpo(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinGM').style.display="block";
 }
 function showAeet(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinAE').style.display="block";
 }
 function showNzin(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinNZ').style.display="block";
 }
 function showIsto(){
   document.getElementById('allcontent').style.opacity="0.3";
-  document.getElementById('detwin').style.display="block";
+  document.getElementById('detwinIS').style.display="block";
 }
+

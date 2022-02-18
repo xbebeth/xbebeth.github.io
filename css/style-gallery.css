@@ -256,9 +256,7 @@ h5.design-det{
   margin-top:-105px;
 }
 /*THIS IS FOR THE DETAIL WINDOWS ===================MOBILE========================*/
-#detwin, #detwinCB, #detwinVG{
-  width:95vw;
-  min-height:90vh;
+#detwin, #detwinKO, #detwinAT, #detwinCA, #detwinLO, #detwinVP, #detwinVG, #detwinFM, #detwinIP, #detwinCB, #detwinFL, #detwinAZ, #detwinGM, #detwinAE, #detwinNZ, #detwinIS{
   z-index: 900;
   position: fixed;
   top: 0;
@@ -269,18 +267,39 @@ h5.design-det{
   overflow-x: hidden;
   display: none;
   background-color: #FFF;
-  padding:2vh;
-  overflow-y:scroll;
-  overflow-x:hidden;
+}
+.mob-det-img{
+  width:100%;
+}
+img.large-det-img{
+  display: none;
+}
+img.scroll-icon{
+  display: none;
+}
+div.det-win-typo{
+  padding:20px;
+}
+h1.det-win-title{
+  font-size: 20px;
+  color: #0F9E94;
+}
+h5.det-win-title{
+  color:#E7656E;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top:15px;
 }
 h1.det-title{
   font-size: 22px;
   font-weight: 600;
   color:#0F9E94;
 }
-h5.det-title, h3.det-title, h4.det-title, p.det-text{
-  color:#0F9E94;
-  font-size:14px;
+p.det-text{
+  color:#000;
+  font-size:16px;
+  line-height: 21px;
+  margin-bottom: 12px;
 }
 h3.det-title{
   font-weight: 600;
@@ -289,44 +308,13 @@ h3.det-title{
 .center{
   text-align: center;
 }
-h4.det-title{
-  color:#E7656E;
-  text-align: center;
-}
-p.det-text{
-  line-height: 16px;
-  margin-bottom: 12px;
-}
-p.det-red{
-  color: #E7656E;
-  text-align: center;
-}
-img.det-prototype{
-  display: block;
-  width:80vw;
-  margin:0 auto;
-}
-div.contain-det{
-  margin-top:20px;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-div.box-det{
-  width:40%;
-}
-div.box-det img{
-  display: block;
-  margin: 0 auto;
-  width:150px;
-}
-div.box-det-ob{
-  width: 60%;
-}
 a#closewin{
-  color:#3DBCB4;
-  float: right;
+  display: inline-block;
+  padding: 6px;
+  text-align: right;
+  width: 100%;
+  background-color: #D4FBF6;
+  color:#0F9E94;
 }
 a#closewin:hover{
   cursor:grab;
@@ -347,6 +335,25 @@ button.det-button:hover{
   div.grid{
     padding:2% 2.5%;
   }
+  a#closewin{
+    width: 94vw;
+    position: fixed;
+  }
+  #detwin, #detwinKO, #detwinAT, #detwinCA, #detwinLO, #detwinVP, #detwinVG, #detwinFM, #detwinIP, #detwinCB, #detwinFL, #detwinAZ, #detwinGM, #detwinAE, #detwinNZ, #detwinIS{
+    top: 3vh;
+    bottom:3vh;
+    right:3vw;
+    left: 3vw;
+    width: 94vw;
+    height: 94vh;
+  }
+  img.mob-det-img{
+    display: none;
+  }
+  img.large-det-img{
+    display: block;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 1046px) {
 /*THIS IS FOR THE GRID-BASED PAGES ===============================================*/
@@ -354,41 +361,28 @@ div.grid{
   margin:-30px auto;
 }
 /*THIS IS FOR THE DETAIL WINDOWS =================================================*/
-#detwin, #detwinCB, #detwinVG{
-  top: 3vh;
-  bottom:3vh;
-  right:3vw;
-  left: 3vw;
-  width: 94vw;
-  height: 94vh;
+div.det-img-div{
+  width:70%;
 }
-div.half{
-  margin-top:20px;
-  display: block;
-  width:48%;
+div.det-win-typo{
+  width:25%;
+  float: left;
+  margin-top:50px;
+  margin-left:67%;
+  position: fixed;
+}
+img.large-det-img{
+  width:100%;
   float: left;
 }
-div.full{
-  clear: both;
-  width:80%;
-  margin-left:10%;
-  margin-right:10%;
+img.scroll-icon{
+  display: block;
+  width:25px;
+  position: absolute;
+  left:35%;
+  bottom:2%;
 }
-img.det-prototype{
-  width:450px;
-}
-div.box-det{
-  width:20%;
-}
-div.box-det-ob{
-  width: 40%;
-}
-h3.center{
-  margin-top:40px;
-}
-button.det-button{
-  clear: both;
-}
+
 }
 @media only screen and (min-width: 1330px) {
 div#header{

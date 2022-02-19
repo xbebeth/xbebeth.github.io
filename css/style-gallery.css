@@ -263,7 +263,6 @@ h5.design-det{
   bottom:0;
   width: 100vw;
   height: 100vh;
-  overflow-y: scroll;
   overflow-x: hidden;
   display: none;
   background-color: #FFF;
@@ -274,7 +273,7 @@ h5.design-det{
 img.large-det-img{
   display: none;
 }
-img.scroll-icon{
+img.scrollicon{
   display: none;
 }
 div.det-win-typo{
@@ -375,9 +374,9 @@ img.large-det-img{
   width:100%;
   float: left;
 }
-img.scroll-icon{
+img.scrollicon{
+  width:45px;
   display: block;
-  width:25px;
   position: absolute;
   left:35%;
   bottom:2%;

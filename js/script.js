@@ -8,6 +8,33 @@ function openNav() {
   }
 }
 
+//Code for hiding scrolling gif
+function hidegif(){
+ if (document.getElementById('detwinKO').scrollTop > 50 || document.getElementById('detwinAT').scrollTop > 50 || document.getElementById('detwinCA').scrollTop > 50 || document.getElementById('detwinLO').scrollTop > 50 || document.getElementById('detwinVP').scrollTop > 50) {
+  document.getElementById("sKO").style.opacity="0";
+  document.getElementById("sKO").style.transition="1s";
+  document.getElementById("sAT").style.opacity="0";
+  document.getElementById("sAT").style.transition="1s";
+  document.getElementById("sCA").style.opacity="0";
+  document.getElementById("sCA").style.transition="1s";
+  document.getElementById("sLO").style.opacity="0";
+  document.getElementById("sLO").style.transition="1s";
+  document.getElementById("sVP").style.opacity="0";
+  document.getElementById("sVP").style.transition="1s";
+ } else {
+  document.getElementById("sKO").style.opacity="1";
+  document.getElementById("sKO").style.transition="1s";
+  document.getElementById("sAT").style.opacity="1";
+  document.getElementById("sAT").style.transition="1s";
+  document.getElementById("sCA").style.opacity="1";
+  document.getElementById("sCA").style.transition="1s";
+  document.getElementById("sLO").style.opacity="1";
+  document.getElementById("sLO").style.transition="1s";
+  document.getElementById("sVP").style.opacity="1";
+  document.getElementById("sVP").style.transition="1s";
+ }
+}
+
 //Code for the detail windows DESIGNER
 function showKomo(){
   document.getElementById('allcontent').style.opacity="0.3";

@@ -34,6 +34,51 @@ function hidegif(){
   document.getElementById("sVP").style.transition="1s";
  }
 }
+function hidegifED(){
+  if (document.getElementById('detwinVG').scrollTop > 50 || document.getElementById('detwinFM').scrollTop > 50 || document.getElementById('detwinIP').scrollTop > 50 || document.getElementById('detwinCB').scrollTop > 50 || document.getElementById('detwinFL').scrollTop > 50 || document.getElementById('detwinAZ').scrollTop > 50 || document.getElementById('detwinGM').scrollTop > 50 || document.getElementById('detwinAE').scrollTop > 50 || document.getElementById('detwinNZ').scrollTop > 50 || document.getElementById('detwinIS').scrollTop > 50) {
+   document.getElementById("sVG").style.opacity="0";
+   document.getElementById("sVG").style.transition="1s";
+   document.getElementById("sFM").style.opacity="0";
+   document.getElementById("sFM").style.transition="1s";
+   document.getElementById("sIP").style.opacity="0";
+   document.getElementById("sIP").style.transition="1s";
+   document.getElementById("sCB").style.opacity="0";
+   document.getElementById("sCB").style.transition="1s";
+   document.getElementById("sFL").style.opacity="0";
+   document.getElementById("sFL").style.transition="1s";
+   document.getElementById("sAZ").style.opacity="0";
+   document.getElementById("sAZ").style.transition="1s";
+   document.getElementById("sGM").style.opacity="0";
+   document.getElementById("sGM").style.transition="1s";
+   document.getElementById("sAE").style.opacity="0";
+   document.getElementById("sAE").style.transition="1s";
+   document.getElementById("sNZ").style.opacity="0";
+   document.getElementById("sNZ").style.transition="1s";
+   document.getElementById("sIS").style.opacity="0";
+   document.getElementById("sIS").style.transition="1s";
+  } else {
+   document.getElementById("sVG").style.opacity="1";
+   document.getElementById("sVG").style.transition="1s";
+   document.getElementById("sFM").style.opacity="1";
+   document.getElementById("sFM").style.transition="1s";
+   document.getElementById("sIP").style.opacity="1";
+   document.getElementById("sIP").style.transition="1s";
+   document.getElementById("sCB").style.opacity="1";
+   document.getElementById("sCB").style.transition="1s";
+   document.getElementById("sFL").style.opacity="1";
+   document.getElementById("sFL").style.transition="1s";
+   document.getElementById("sAZ").style.opacity="1";
+   document.getElementById("sAZ").style.transition="1s";
+   document.getElementById("sGM").style.opacity="1";
+   document.getElementById("sGM").style.transition="1s";
+   document.getElementById("sAE").style.opacity="1";
+   document.getElementById("sAE").style.transition="1s"
+   document.getElementById("sNZ").style.opacity="1";
+   document.getElementById("sNZ").style.transition="1s"
+   document.getElementById("sIS").style.opacity="1";
+   document.getElementById("sIS").style.transition="1s"
+  }
+ }
 
 //Code for the detail windows DESIGNER
 function showKomo(){

@@ -188,6 +188,46 @@ div.lotfbook:hover{
   background-image:url('../img/lotfbook.jpg');
   transition: 0.5s;
 }
+div.photo1{
+  background-image:url('../img/photo1-true.jpg');
+  transition: 0.5s;
+}
+div.photo1:hover{
+  background-image:url('../img/photo1.jpg');
+  transition: 0.5s;
+}
+div.photo2{
+  background-image:url('../img/photo2-true.jpg');
+  transition: 0.5s;
+}
+div.photo2:hover{
+  background-image:url('../img/photo2.jpg');
+  transition: 0.5s;
+}
+div.photo3{
+  background-image:url('../img/photo3-true.jpg');
+  transition: 0.5s;
+}
+div.photo3:hover{
+  background-image:url('../img/photo3.jpg');
+  transition: 0.5s;
+}
+div.photo4{
+  background-image:url('../img/photo4-true.jpg');
+  transition: 0.5s;
+}
+div.photo4:hover{
+  background-image:url('../img/photo4.jpg');
+  transition: 0.5s;
+}
+div.photo5{
+  background-image:url('../img/photo5-true.jpg');
+  transition: 0.5s;
+}
+div.photo5:hover{
+  background-image:url('../img/photo5.jpg');
+  transition: 0.5s;
+}
 div.gmpostcards{
   background-image:url('../img/gmpostcards-true.jpg');
   transition: 0.5s;
@@ -256,7 +296,8 @@ h5.design-det{
   margin-top:-105px;
 }
 /*THIS IS FOR THE DETAIL WINDOWS ===================MOBILE========================*/
-#detwin, #detwinKO, #detwinAT, #detwinCA, #detwinLO, #detwinVP, #detwinVG, #detwinFM, #detwinIP, #detwinCB, #detwinFL, #detwinAZ, #detwinGM, #detwinAE, #detwinNZ, #detwinIS{
+#detwin, #detwinKO, #detwinAT, #detwinCA, #detwinLO, #detwinVP, #detwinP1, #detwinP2, #detwinP3, #detwinP4, #detwinP5,
+#detwinVG, #detwinFM, #detwinIP, #detwinCB, #detwinFL, #detwinAZ, #detwinGM, #detwinAE, #detwinNZ, #detwinIS{
   z-index: 900;
   position: fixed;
   top: 0;
@@ -338,7 +379,8 @@ button.det-button:hover{
     width: 94vw;
     position: fixed;
   }
-  #detwin, #detwinKO, #detwinAT, #detwinCA, #detwinLO, #detwinVP, #detwinVG, #detwinFM, #detwinIP, #detwinCB, #detwinFL, #detwinAZ, #detwinGM, #detwinAE, #detwinNZ, #detwinIS{
+  #detwin, #detwinKO, #detwinAT, #detwinCA, #detwinLO, #detwinVP, #detwinP1, #detwinP2, #detwinP3, #detwinP4, #detwinP5,
+  #detwinVG, #detwinFM, #detwinIP, #detwinCB, #detwinFL, #detwinAZ, #detwinGM, #detwinAE, #detwinNZ, #detwinIS{
     top: 3vh;
     bottom:3vh;
     right:3vw;
@@ -352,6 +394,7 @@ button.det-button:hover{
   img.large-det-img{
     display: block;
     width: 100%;
+    margin-top:33px;
   }
 }
 @media only screen and (min-width: 1046px) {

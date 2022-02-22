@@ -10,7 +10,8 @@ function openNav() {
 
 //Code for hiding scrolling gif
 function hidegif(){
- if (document.getElementById('detwinKO').scrollTop > 50 || document.getElementById('detwinAT').scrollTop > 50 || document.getElementById('detwinCA').scrollTop > 50 || document.getElementById('detwinLO').scrollTop > 50 || document.getElementById('detwinVP').scrollTop > 50) {
+ if (document.getElementById('detwinKO').scrollTop > 50 || document.getElementById('detwinAT').scrollTop > 50 || document.getElementById('detwinCA').scrollTop > 50 || document.getElementById('detwinLO').scrollTop > 50 || document.getElementById('detwinVP').scrollTop > 50 
+ || document.getElementById('detwinP1').scrollTop > 50 || document.getElementById('detwinP2').scrollTop > 50 || document.getElementById('detwinP3').scrollTop > 50 || document.getElementById('detwinP4').scrollTop > 50 || document.getElementById('detwinP5').scrollTop > 50) {
   document.getElementById("sKO").style.opacity="0";
   document.getElementById("sKO").style.transition="1s";
   document.getElementById("sAT").style.opacity="0";
@@ -21,6 +22,16 @@ function hidegif(){
   document.getElementById("sLO").style.transition="1s";
   document.getElementById("sVP").style.opacity="0";
   document.getElementById("sVP").style.transition="1s";
+  document.getElementById("sP1").style.opacity="0";
+  document.getElementById("sP1").style.transition="1s";
+  document.getElementById("sP2").style.opacity="0";
+  document.getElementById("sP2").style.transition="1s";
+  document.getElementById("sP3").style.opacity="0";
+  document.getElementById("sP3").style.transition="1s";
+  document.getElementById("sP4").style.opacity="0";
+  document.getElementById("sP4").style.transition="1s";
+  document.getElementById("sP5").style.opacity="0";
+  document.getElementById("sP5").style.transition="1s";
  } else {
   document.getElementById("sKO").style.opacity="1";
   document.getElementById("sKO").style.transition="1s";
@@ -32,6 +43,16 @@ function hidegif(){
   document.getElementById("sLO").style.transition="1s";
   document.getElementById("sVP").style.opacity="1";
   document.getElementById("sVP").style.transition="1s";
+  document.getElementById("sP1").style.opacity="1";
+  document.getElementById("sP1").style.transition="1s";
+  document.getElementById("sP2").style.opacity="1";
+  document.getElementById("sP2").style.transition="1s";
+  document.getElementById("sP3").style.opacity="1";
+  document.getElementById("sP3").style.transition="1s";
+  document.getElementById("sP4").style.opacity="1";
+  document.getElementById("sP4").style.transition="1s";
+  document.getElementById("sP5").style.opacity="1";
+  document.getElementById("sP5").style.transition="1s";
  }
 }
 function hidegifED(){
@@ -101,6 +122,26 @@ function showVpos(){
   document.getElementById('allcontent').style.opacity="0.3";
   document.getElementById('detwinVP').style.display="block";
 }
+function showP1(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwinP1').style.display="block";
+}
+function showP2(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwinP2').style.display="block";
+}
+function showP3(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwinP3').style.display="block";
+}
+function showP4(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwinP4').style.display="block";
+}
+function showP5(){
+  document.getElementById('allcontent').style.opacity="0.3";
+  document.getElementById('detwinP5').style.display="block";
+}
 //Code for closing for both DESIGNER and EDUCATOR
 function closeme(){
   document.getElementById('allcontent').style.opacity="1";
@@ -109,6 +150,11 @@ function closeme(){
   document.getElementById('detwinCA').style.display="none";
   document.getElementById('detwinLO').style.display="none";
   document.getElementById('detwinVP').style.display="none";
+  document.getElementById('detwinP1').style.display="none";
+  document.getElementById('detwinP2').style.display="none";
+  document.getElementById('detwinP3').style.display="none";
+  document.getElementById('detwinP4').style.display="none";
+  document.getElementById('detwinP5').style.display="none";
 }
 function closemeED(){
   document.getElementById('allcontent').style.opacity="1";

@@ -355,6 +355,7 @@ a#closewin{
   width: 100%;
   background-color: #D4FBF6;
   color:#0F9E94;
+  z-index: 50;
 }
 a#closewin:hover{
   cursor:grab;
@@ -408,10 +409,11 @@ div.det-img-div{
 }
 div.det-win-typo{
   width:25%;
+  position: absolute;
   float: left;
   margin-top:50px;
-  margin-left:67%;
-  position: fixed;
+  margin-left:72%;
+  z-index: 10;
 }
 img.large-det-img{
   width:100%;
@@ -480,4 +482,13 @@ div.box-det-ob{
 h3.center{
   margin-top:40px;
 }
+}
+@media only screen and (min-width: 1660px) {
+  div.det-win-typo{
+    width:25%;
+    float: left;
+    margin-top:50px;
+    margin-left:67%;
+    position: fixed;
+  }
 }

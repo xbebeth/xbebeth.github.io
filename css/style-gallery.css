@@ -92,6 +92,24 @@ div.istories:hover{
   background-image:url('../img/istories.jpg');
   transition: 0.5s;
 }
+
+
+div.lverose{
+  background-image:url('../img/lverose-true.jpg');
+  transition: 0.5s;
+}
+div.lverose:hover{
+  background-image:url('../img/lverose.jpg');
+  transition: 0.5s;
+}
+div.cotasrey{
+  background-image:url('../img/cotasrey-true.jpg');
+  transition: 0.5s;
+}
+div.cotasrey:hover{
+  background-image:url('../img/cotasrey.jpg');
+  transition: 0.5s;
+}
 div.hypo1{
   background-image:url('../img/hypo1-true.jpg');
   transition: 0.5s;
@@ -156,6 +174,10 @@ div.ink:hover{
   background-image:url('../img/ink.jpg');
   transition: 0.5s;
 }
+
+
+
+
 div.komorebi{
   background-image:url('../img/komorebi-true.jpg');
   transition: 0.5s;
